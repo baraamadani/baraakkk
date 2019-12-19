@@ -9,7 +9,7 @@
   "rotateAvatarImageTime" : 600000,
   "defaultStatus": "idle",
   "PSN": {
-    "enabled": true,
+    "enabled": false,
     "email": "Your PSN E-mail",
     "password": "Your PSN password",
     "psnID": "Your PSNid"
@@ -20,24 +20,24 @@
     "apikey": "Your xboxapi.com apikey"
   },
   "mentionNotificator": {
-    "inConsole": true,
-    "inNotificationChannel": true,
+    "inConsole": false,
+    "inNotificationChannel": false,
     "logBlockedUsers": false,
     "ignoredServers": ["SERVER ID"]
   },
   "keywordNotificator": {
-    "inConsole": true,
-    "inNotificationChannel": true,
+    "inConsole": false,
+    "inNotificationChannel": false,
     "logBlockedUsers": false,
-    "caseInsensitive": true,
+    "caseInsensitive": false,
     "ignoredServers": ["SERVER ID"]
   },
   "eventNotificator": {
-    "inConsole": true,
+    "inConsole": false,
     "inNotificationChannel": false
   },
   "notificationChannelID": "Notification channel ID if you set 'inNotificationChannel' to true at least once",
   "defaultEmbedColor": "#117ea6",
-  "deleteCommandMessages": true,
+  "deleteCommandMessages": false,
   "deleteCommandMessagesTime": 15000
 }
